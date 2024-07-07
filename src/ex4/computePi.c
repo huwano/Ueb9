@@ -15,18 +15,14 @@ int powerFunction(int x , int y ){
     }
 }
 
-long long factorialFunction( int x ){
+long long factorial(int n) {
+    long long res = 1;
 
-    long long sum = 1;
-
-    for ( int i = 1; i <= x; i++){
-
-        sum *=i;
-
+    for(int i = 1; i <= n; i++) {
+        res *= i;
     }
 
-    return sum;
-
+    return res;
 }
 
 
@@ -49,17 +45,13 @@ double calculatePi( int terms ){
 
 }
 
-double calculateE( int terms ){
-    double sum = 0;
+double calculate_e(int terms) {
+    double e = 0;
 
-    for ( int i = 0; i <= terms; i++){
-
-        //  denominator = ;
-
-        sum +=  + 1.0/(double) (factorialFunction(i));
-
+    for(int k = 0; k <= terms; k++) {
+        e += 1.0/(double)(factorial(k));
     }
 
-    return sum;
+    return e;
 }
 
