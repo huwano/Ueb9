@@ -6,9 +6,8 @@
 
     if ( x  <= 1 ){
         return x;
-    }
-    else {
-    return fibrec(x-1)+fibrec(x-2);
+    } else {
+       return fibrec(x-1)+fibrec(x-2);
     }
 
    }

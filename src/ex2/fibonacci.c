@@ -13,7 +13,7 @@
 
         printf("\nStarting the recursive approach...\n");
         startRec = clock();
-        printf("\nThe 20th fibonacci num computed by an recursive approach is : %d\n" , fibrec(20));
+        printf("\nThe 40th fibonacci num computed by an recursive approach is : %d\n" , fibrec(10000));
         endRec = clock();
 
         long durationRec = endRec-startRec;
@@ -21,7 +21,7 @@
 
         printf("\nStarting the iterative approach...");
         startIter = clock();
-        printf("\nThe 20th fibonacci num computed by an iterative approach is : %d\n" , fibIter(20));
+        printf("\nThe 40th fibonacci num computed by an iterative approach is : %d\n" , fibIter(10000));
         endIter = clock();
 
         long durationIter = endIter-startIter;

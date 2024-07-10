@@ -10,7 +10,11 @@ int main (){
 
     printf(" 2 to the power of 3 is : %d \n\n" , powerFunction(2,3));
 
-    printf(" please enter the amount of terms to compute :");
+    printf(" please enter the amount of terms to compute: ");
+
+    int input ;
+    scanf("%d", &input);
+
     
     printf(" the value of pi is : %.5f\n" , calculatePi(1000));
 

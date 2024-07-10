@@ -5,11 +5,12 @@
 
 
 int main() {
-    row();
+    //pio in main wird nicht programmiert ... start .. run ... //wiederverwendung
+    row(); //pio eher Konsatne
     printf("Hello, World!\n");
 
     row();
-    preTax(preTaxAmount());
+    preTax(preTaxAmount()); //pio pro zeile eine logischer schritt
     
 
     mWsT(mWsTAmount());

@@ -4,7 +4,7 @@
 void row(){
     printf("================================\n");
 }
-void preTax(float x){
+void preTax(float x){ // variable enstsprechend bennen
     printf("\nNetto Preis:        EURO %.2f \n" , x );
 }
 

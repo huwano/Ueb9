@@ -6,10 +6,10 @@
 
  int fibIter( int x ){
 
-    int num1 = 0;
+    int num1 = 0; //pio sprechende namen ... nur allgemeinegueltige abkuerzungen
     int num2 = 1;
 
-    int temporary;
+    int temporary; //pio tabu tmp temp test tst
 
     if (x == 0 ){
         return num1;

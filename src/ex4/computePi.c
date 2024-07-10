@@ -34,7 +34,7 @@ double calculatePi( int terms ){
     for ( int i = 0 ; i <= terms; i++){
 
         numerator = powerFunction(-1,i);
-        denominator = 2*i + 1;
+        denominator = 2*i + 1; //pio double mit double ... int mit int 
 
         sum = sum + (numerator/denominator);
 
