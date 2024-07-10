@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     pi
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _powerFunction, symObjAddr: 0x0, symBinAddr: 0x100003CC8, symSize: 0x64 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _powerFunction, symObjAddr: 0x0, symBinAddr: 0x100003CC8, symSize: 0x64 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _factorial, symObjAddr: 0x64, symBinAddr: 0x100003D2C, symSize: 0x6C }
+  - { offsetInCU: 0xD0, offset: 0xD0, size: 0x8, addend: 0x0, symName: _calculatePi, symObjAddr: 0xD0, symBinAddr: 0x100003D98, symSize: 0xB0 }
+  - { offsetInCU: 0x13E, offset: 0x13E, size: 0x8, addend: 0x0, symName: _calculate_e, symObjAddr: 0x180, symBinAddr: 0x100003E48, symSize: 0x7C }
+  - { offsetInCU: 0x190, offset: 0x190, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1FC, symBinAddr: 0x100003EC4, symSize: 0x78 }
+...

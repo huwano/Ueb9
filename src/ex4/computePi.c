@@ -1,6 +1,7 @@
 //
 // Created by Michal Roziel on 07.07.24.
 //
+#include <math.h>
 #include <stdio.h>
 
 int powerFunction(int x , int y ){
@@ -22,7 +23,7 @@ long long factorial(int n) {
         res *= i;
     }
 
-    return res;
+    return round(res);
 }
 
 
@@ -46,10 +47,10 @@ double calculatePi( int terms ){
 }
 
 double calculate_e(int terms) {
-    double e = 0;
+    long double e = 0;
 
     for(int k = 0; k <= terms; k++) {
-        e += 1.0/(double)(factorial(k));
+        e += 1.0/(long double)(factorial(k));
     }
 
     return e;

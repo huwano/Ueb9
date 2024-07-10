@@ -13,7 +13,7 @@ int main (){
     
     printf(" the value of pi is : %.5f\n" , calculatePi(1000));
 
-    printf(" the value of e is : %.5f\n\n" , calculate_e(100));
+    printf(" the value of e is : %lld\n\n" , calculate_e(100));
 
 
 
